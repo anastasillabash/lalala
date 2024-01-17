@@ -1,5 +1,5 @@
 FROM python:3
 WORKDIR /
 COPY . .
-EXPOSE 8080
-CMD [ "python", "./app.py" ]
+EXPOSE 3000
+CMD [ "python", "./testapp.py" ]
